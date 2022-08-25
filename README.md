@@ -14,9 +14,9 @@ In this project i will use Spring Boot and Spring Cloud to create MicroService a
 ![Docker](https://img.shields.io/badge/-Docker-313e94?style=for-the-badge&logo=docker)
 ![Twillo](https://img.shields.io/badge/-Twillo-121212?style=for-the-badge&logo=twilio)
 
-Message broker: Kafka
-Database: Postgres 
-Automating the deployment: Docker 
-Notification: Twillo 
-Server Discovery: Eureka
-Distributed Tracing :Zipkin
+Message broker: Kafka <br>
+Database: Postgres <br>
+Automating the deployment: Docker <br>
+Notification: Twillo <br>
+Server Discovery: Eureka <br>
+Distributed Tracing :Zipkin <br>

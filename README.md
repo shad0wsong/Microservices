@@ -9,6 +9,10 @@ In this project i will use Spring Boot and Spring Cloud to create MicroService a
 
 <h1>Tech tools</h1>
 
+![Java](https://img.shields.io/badge/-Java-090909?style=for-the-badge&logo=appveyor)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-407d41?style=for-the-badge&logo=springboot)
+![Spring](https://img.shields.io/badge/-Spring-407d41?style=for-the-badge&logo=spring)
+![Spring Security](https://img.shields.io/badge/-Spring_Security-407d41?style=for-the-badge&logo=springsecurity)
 ![Kafka](https://img.shields.io/badge/-Apache_Kafka-121212?style=for-the-badge&logo=apachekafka)
 ![Postgresql](https://img.shields.io/badge/-Postgresql-dedee0?style=for-the-badge&logo=postgresql)
 ![Docker](https://img.shields.io/badge/-Docker-313e94?style=for-the-badge&logo=docker)

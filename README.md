@@ -18,7 +18,7 @@ Message broker: Kafka <br>
 Database: Postgres <br>
 Automating the deployment: Docker <br>
 Notification: Twillo <br>
-Server Discovery: Eureka <br>
+Service Discovery: Eureka <br>
 Distributed Tracing :Zipkin <br>
 
 <h1>Architecture</h1>

@@ -6,9 +6,9 @@ spring:
     name: fraud
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/LearningDB
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://192.168.99.100:5432/LearningDB
+    username: root
+    password: root
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -16,6 +16,9 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQL10Dialect
     hibernate:
       ddl-auto: update
+
+  zipkin:
+    base-url: http://192.168.99.100:9411/
 
 eureka:
   client:

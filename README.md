@@ -25,3 +25,7 @@ Distributed Tracing :Zipkin <br>
 
 ![architecture](https://user-images.githubusercontent.com/101453514/186715518-9621e33b-4b8e-45e1-a95c-9f3f4ff45b68.png)
 
+<h1>Load balanced structure</h1>
+
+![mi1vJxJ8v_c](https://user-images.githubusercontent.com/101453514/187726245-c545de08-3c63-41b7-82f8-6feb46873be1.jpg)
+

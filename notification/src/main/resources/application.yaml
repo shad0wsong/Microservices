@@ -1,9 +1,9 @@
 server:
-  port: 8080
+  port: 8082
 
 spring:
   application:
-    name: customer
+    name: notification
 
   datasource:
     url: jdbc:postgresql://192.168.99.100:5432/LearningDB
@@ -17,12 +17,23 @@ spring:
     hibernate:
       ddl-auto: update
 
-  kafka:
-    bootstrap-servers: 192.168.99.100:9092
-
   zipkin:
     base-url: http://192.168.99.100:9411/
 
+  kafka:
+    bootstrap-servers: 192.168.99.100:9092
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: learningdankz@gmail.com
+    password: 123456!
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
 eureka:
   client:

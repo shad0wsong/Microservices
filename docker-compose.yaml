@@ -18,7 +18,6 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: noemail@nomail.com
       PGADMIN_DEFAULT_PASSWORD: root
-
     ports:
       - "5050:80"
     restart: unless-stopped
@@ -28,4 +27,20 @@ services:
     container_name: zipkin
     ports:
       - "9411:9411"
+
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: wurstmeister/kafka
+    container_name: kafka
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: 192.168.99.100
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    ports:
+      - "9092:9092"
+
 

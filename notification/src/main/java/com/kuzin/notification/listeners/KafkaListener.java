@@ -22,9 +22,8 @@ public class KafkaListener {
     void registrationListener(String data) throws JsonProcessingException {
 
         EmailMessage emailMessage = mapper.readValue(data, EmailMessage.class);
-        System.out.println(emailMessage);
-        //emailSenderService.sendEmail(emailMessage.getAddress(), emailMessage.getTheme().toString(),
-         //       "Hello, confirm your registration ");
+        emailSenderService.sendEmail(emailMessage.getAddress(), emailMessage.getTheme().toString(),
+               "Hello, confirm your registration ");
 
 
     }

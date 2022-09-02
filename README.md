@@ -29,4 +29,3 @@ Distributed Tracing :Zipkin <br>
 <h1>Load balanced structure</h1>
 
 ![mi1vJxJ8v_c](https://user-images.githubusercontent.com/101453514/187726245-c545de08-3c63-41b7-82f8-6feb46873be1.jpg)
-
